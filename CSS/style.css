@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    --primaryColor:#edf2fc;
+    --secondaryColor: #212121;
+}
+
+.darkTheme{
+    --primaryColor:#000106;
+    --secondaryColor: #fff;
+}
+
+@font-face{
+   font-family: MinhaFonte;
+   src: url(../fontes/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: var(--primaryColor);
+    font-family: MinhaFonte;
+}
+
+#header{
+    padding-top: 20px;
+}
+
+#icon{
+    width: 25px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-size: 20px;
+    float: right;
+    margin-right: 40px;
+}
+
+.link:hover{
+    color: #e4b4e4;
+}
+
+#cover{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    
+}
+
+#description{
+    text-align: center;
+    margin-right: 130px;
+    margin-bottom: 12px;
+    color: var(--secondaryColor);
+    font-size: 30px;
+}
+
+#control{
+    text-align: center;
+    position: relative;
+    right: 70px;
+}
+
+.btn{
+    font-size: 45px;
+    padding: 15px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--secondaryColor);
+}
+
+.btn:hover{
+    font-size: 55px;
+}

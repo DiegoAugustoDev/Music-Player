@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./imgs/music.png">
+</head>
+<body>
+    <main id="container">
+    <header id="header">
+        <a class="link" href="https://github.com/DiegoAugustoDev">GitHub</a>
+        <img src="./imgs/moon.png" id="icon">
+    </header>
+
+    <section id="player">
+       <img id="cover" src="./imgs/julieta.png">
+       <div id="description">
+        <h2>Julieta</h2>
+        <p>Kamaitachi</p>
+       </div>
+     
+       <div id="control">
+        <button  id="prev" class="btn"><i class="fas fa-step-backward setas anterior"></i></button>
+        <button  id="play" class="btn"> <i class="fas fa-play-circle botao-play"></i></button>
+        <button  id="pause" class="btn"><i class="fas fa-pause-circle botao-pause"></i></button>
+        <button  id="next" class="btn"> <i class="fas fa-step-forward setas proximo"></i></button>
+       </div>
+       <audio src="./Musics/Julieta.mp3"></audio>
+    </section>
+</main>
+
+    <script src="https://kit.fontawesome.com/5bc262e851.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
